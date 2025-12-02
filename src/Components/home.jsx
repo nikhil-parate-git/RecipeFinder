@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import RecipeCard from "./recipecard";
-import Header from "./header";
-import Loading from "./Loading";
+import Header from "../Components/header.jsx";
+import Loading from "../Components/loading.jsx"
 
 const Home = () => {
   const [allvalues, setvalues] = useState({
